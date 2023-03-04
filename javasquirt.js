@@ -4,7 +4,7 @@ audio.volume = 0.0;
  function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
-let random = getRandomInt(4)
+let random = getRandomInt(5)
 let widget;
 let myzyaka;
 switch (random){
