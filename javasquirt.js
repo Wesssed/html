@@ -8,10 +8,10 @@ let random = getRandomInt(5)
 let widget;
 let myzyaka;
 switch (random){
-    case 1:
-        myzyaka = "1.mp3"
-        widget = "https://open.spotify.com/embed/track/3YmZ8V92nqVKx6u1lohFCC?utm_source=generator&amp;theme=0"
-      break;
+      case 1:
+          myzyaka = "1.mp3"
+          widget = "https://open.spotify.com/embed/track/3YmZ8V92nqVKx6u1lohFCC?utm_source=generator&amp;theme=0"
+        break;
 
         case 2:
             myzyaka = "2.mp3"
