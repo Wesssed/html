@@ -4,7 +4,7 @@ audio.volume = 0.0;
  function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
-let random = getRandomInt(6)
+let random = getRandomInt(5)
 let widget;
 let myzyaka;
 switch (random){
@@ -31,10 +31,6 @@ switch (random){
         case 5:
             myzyaka = "5.mp3"
             widget = "https://open.spotify.com/embed/track/16LldYYJefKzxIM6mc7ryR?utm_source=generator&amp;theme=0"
-        break;
-        case 6:
-            myzyaka = "6.mp3"
-            widget = "https://open.spotify.com/embed/track/3YmZ8V92nqVKx6u1lohFCC?utm_source=generator&amp;theme=0"
         break;
         }
         document.getElementById('music').src = myzyaka;
