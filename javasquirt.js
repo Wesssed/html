@@ -1,5 +1,5 @@
 let audio = document.getElementById("music");
-audio.volume = 0.3;
+audio.volume = 0.2;
 
  function getRandomInt(max) {
     return Math.floor(Math.random() * max);
